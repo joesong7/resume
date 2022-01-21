@@ -52,7 +52,7 @@ export default {
           color: "progress-bar red",
         },
         {
-          num: 70,
+          num: 80,
           name: "git",
           img: "https://miro.medium.com/max/325/1*K8Xv0uWQ63F3G00iTbqMlQ.png",
           color: "progress-bar orange",
