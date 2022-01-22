@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <nav class="navbar navbar-light bg-light fixed-top">
+  <div >
+    <nav class="navbar navbar-light fixed-top" >
       <div class="container-fluid">
         <div class="navbar-brand" />
 
@@ -18,6 +18,7 @@
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
+          
         >
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">選單</h5>
@@ -66,17 +67,7 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+            
           </div>
         </div>
       </div>
@@ -91,6 +82,14 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 768px) {
+  .offcanvas {
+    width: 200px;
+  }
+}
+.navbar{
+  background-color: #D3DEDC;
+}
 .nav-item a{
   text-decoration:none;
   color: black;

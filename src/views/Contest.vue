@@ -105,8 +105,12 @@ export default {
 
 <style scoped>
 @media (min-width: 768px) {
+  
   .carousel-inner {
     display: none;
   }
+}
+.card-body p{
+   color: #ca3e47;    
 }
 </style>

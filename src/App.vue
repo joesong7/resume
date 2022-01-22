@@ -3,7 +3,7 @@
   <Narbar />
   <br />
   <br />
-
+  
   <router-view />
 </div>
  
