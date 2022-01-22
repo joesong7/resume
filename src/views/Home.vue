@@ -22,11 +22,12 @@
           </div>
         </div>
         <div class="col">
-          <img :src="item.img" alt="" width="40" />
+          <img :src="item.img" alt="" width="30" />
         </div>
       </div>
     </div>
     <br />
+   
   </div>
 </template>
 

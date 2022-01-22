@@ -2,8 +2,8 @@
   <div>
     <nav class="navbar navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <div class="navbar-brand"/>
-        
+        <div class="navbar-brand" />
+
         <button
           class="navbar-toggler"
           type="button"
@@ -30,11 +30,15 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item"  >
-                <a class="nav-link active" aria-current="page">    <router-link to="/">首頁</router-link></a>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page">
+                  <router-link to="/">首頁</router-link></a
+                >
               </li>
               <li class="nav-item" to="/contest">
-                <a class="nav-link" >    <router-link to="/contest">競賽成果</router-link></a>
+                <a class="nav-link">
+                  <router-link to="/contest"  >競賽成果</router-link></a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -87,6 +91,8 @@ export default {
 </script>
 
 <style scoped>
-
-
+.nav-item a{
+  text-decoration:none;
+  color: black;
+}
 </style>

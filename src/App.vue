@@ -1,9 +1,13 @@
 <template>
+<div class="body">
   <Narbar />
   <br />
   <br />
 
   <router-view />
+</div>
+ 
+  
 </template>
 
 <script>
@@ -14,5 +18,14 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+
+
+.body{
+font-family: ‘cwTeXFangSong’, serif;
+  
+}
+
 </style>
