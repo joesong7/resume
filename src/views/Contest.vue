@@ -94,7 +94,7 @@ export default {
         {
           time: 2021,
           title: "黑捷客黑客松",
-          text: "黑傑客獎",
+          text: "黑捷客獎",
         },
       ],
     });
