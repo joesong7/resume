@@ -4,9 +4,6 @@
       <img src="../assets/img/song.png" />
 
       <h1>宋鎔宇 Joe</h1>
-
-  
- 
     </div>
     <br />
 
@@ -46,7 +43,7 @@ export default {
         {
           num: 75,
           name: "vue",
-          img: "https://vuejs.org/images/logo.svg",
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/430px-Vue.js_Logo_2.svg.png",
           color:"progress-bar green"
         },
         {

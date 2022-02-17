@@ -1,6 +1,6 @@
 <template>
-  <div >
-    <nav class="navbar navbar-light fixed-top" >
+  <div>
+    <nav class="navbar navbar-light fixed-top">
       <div class="container-fluid">
         <div class="navbar-brand" />
 
@@ -18,7 +18,6 @@
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
-          
         >
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">選單</h5>
@@ -38,36 +37,15 @@
               </li>
               <li class="nav-item" to="/contest">
                 <a class="nav-link">
-                  <router-link to="/contest"  >競賽成果</router-link></a
+                  <router-link to="/contest">競賽成果</router-link></a
                 >
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="offcanvasNavbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+              <li class="nav-item" to="/portfolio">
+                <a class="nav-link">
+                  <router-link to="/portfolio">作品集</router-link></a
                 >
-                  經歷
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="offcanvasNavbarDropdown"
-                >
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
               </li>
             </ul>
-            
           </div>
         </div>
       </div>
@@ -87,11 +65,11 @@ export default {
     width: 200px;
   }
 }
-.navbar{
-  background-color: #D3DEDC;
+.navbar {
+  background-color: #d3dedc;
 }
-.nav-item a{
-  text-decoration:none;
+.nav-item a {
+  text-decoration: none;
   color: black;
 }
 </style>
